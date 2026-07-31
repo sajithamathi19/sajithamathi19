@@ -23,6 +23,7 @@ I build complete, production-shaped systems end to end — backend APIs, databas
 
 **[Microsoft PyRIT](https://github.com/microsoft/PyRIT)** (Python Risk Identification Tool for generative AI):
 - **[#1831](https://github.com/microsoft/PyRIT/pull/1831)** — merged — added the SALT-NLP Moral Integrity Corpus (MIC) dataset loader
+  <sub>*Originally authored and merged from my previous GitHub account, which was accidentally deleted — the PR page shows "ghost" as a result, but the underlying commits are still attributed to me (verified via my original commit email).*</sub>
 - **[#1910](https://github.com/microsoft/PyRIT/pull/1910)** — merged — fixed a temp-file leak and race condition in `save_formatted_audio`
   <details>
   <summary>Details</summary>
