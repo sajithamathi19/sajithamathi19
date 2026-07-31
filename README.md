@@ -1,15 +1,15 @@
 ### 👋 Hi, I'm Sajitha Mathi
-🚀 AI/ML Engineer | Multi-Agent Systems, LLM Reliability, Full-Stack AI Products
+🚀 Software Engineer | Full-Stack, with a focus on AI/ML-backed products
 
-I build AI agents that go beyond a single prompt — systems that plan, generate, review their own output, verify real-world outcomes, and learn from them. My focus is reliability: structured outputs instead of free-text parsing, automated multi-stage review layers, and closed feedback loops rather than fire-and-forget generation.
+I build complete, production-shaped systems end to end — backend APIs, databases, scheduling infrastructure, and frontends — with AI/ML woven in where it actually earns its place: agentic pipelines, structured LLM generation, and closed feedback loops, not bolted-on prompts.
 
 ---
 
 ### 🧠 What I Do
-- Build multi-agent pipelines that discover, generate, review, and self-correct — hand-orchestrated directly on LLM APIs (Claude, Gemini) rather than black-box frameworks
+- Build full-stack applications across the stack: FastAPI/Node.js/Spring Boot backends, React/Streamlit frontends, PostgreSQL/SQLite/Firebase persistence
+- Build multi-agent LLM pipelines that discover, generate, review, and self-correct — hand-orchestrated directly on LLM APIs (Claude, Gemini, Groq) rather than black-box frameworks
 - Design closed-loop systems that verify real-world outcomes and feed them back into future decisions (reflection/learning loops, not just static prompts)
-- Build reliability layers around LLM output: Pydantic-validated structured generation, multi-stage automated review, reputation/trust scoring
-- Ship full systems end to end — backend, persistence, scheduling infrastructure, and frontend — not just notebooks or prototypes
+- Build reliability layers around LLM output: structured/validated generation instead of free-text parsing, multi-stage automated review, reputation/trust scoring
 
 ---
 
