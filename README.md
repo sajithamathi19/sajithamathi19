@@ -41,5 +41,7 @@ I build complete, production-shaped systems end to end — backend APIs, databas
   - Added a regression test that mocks the Azure upload to raise, then asserts no new `.wav` files remain in `DB_DATA_PATH`.
 
   Fixes #1894.
+
+  *Note: this PR was originally authored and merged from my previous GitHub account, which was accidentally deleted. The PR page shows "ghost" as a result, but the underlying commits are still attributed to me (verified via my original commit email).*
   </details>
 - **[#2301](https://github.com/microsoft/PyRIT/pull/2301)** — in review — implements the Bijection Attack (arXiv:2410.01294) as a new converter/attack module
