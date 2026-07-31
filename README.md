@@ -1,6 +1,10 @@
 ### 👋 Hi, I'm Sajitha Mathi
 🚀 Software Engineer | Full-Stack, with a focus on AI/ML-backed products
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sajithamathi19&color=blueviolet&style=flat" alt="Profile views" />
+</p>
+
 I build complete, production-shaped systems end to end — backend APIs, databases, scheduling infrastructure, and frontends — with AI/ML woven in where it actually earns its place: agentic pipelines, structured LLM generation, and closed feedback loops, not bolted-on prompts.
 
 ---
@@ -19,11 +23,6 @@ I build complete, production-shaped systems end to end — backend APIs, databas
 - **[#1831](https://github.com/microsoft/PyRIT/pull/1831)** — merged — added the SALT-NLP Moral Integrity Corpus (MIC) dataset loader
 - **[#1910](https://github.com/microsoft/PyRIT/pull/1910)** — merged — fixed a temp-file leak and race condition in `save_formatted_audio`
 - **[#2301](https://github.com/microsoft/PyRIT/pull/2301)** — in review — implements the Bijection Attack (arXiv:2410.01294) as a new converter/attack module
-
----
-
-### 📊 Profile Views
-![Profile views](https://komarev.com/ghpvc/?username=sajithamathi19&color=blueviolet&style=flat)
 
 ---
 
