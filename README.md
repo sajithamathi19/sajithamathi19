@@ -22,6 +22,24 @@ I build complete, production-shaped systems end to end — backend APIs, databas
 ### 🌱 Open Source
 
 **[Microsoft PyRIT](https://github.com/microsoft/PyRIT)** (Python Risk Identification Tool for generative AI):
-- **[#1831](https://github.com/microsoft/PyRIT/pull/1831)** - merged — added the SALT-NLP Moral Integrity Corpus (MIC) dataset loader
+- **[#1831](https://github.com/microsoft/PyRIT/pull/1831)** — merged — added the SALT-NLP Moral Integrity Corpus (MIC) dataset loader
 - **[#1910](https://github.com/microsoft/PyRIT/pull/1910)** — merged — fixed a temp-file leak and race condition in `save_formatted_audio`
+  <details>
+  <summary>Details</summary>
+
+  **Problem**
+
+  `DataTypeSerializer.save_formatted_audio` had two bugs in the Azure storage branch:
+  - **File leak**: `os.remove(local_temp_path)` was not in a `finally` block, so if the Azure upload raised an exception, the temp `.wav` file was never deleted.
+  - **Race condition**: the temp file always used the fixed name `temp_audio.wav`, so concurrent calls would clobber each other's WAV before upload.
+
+  **Fix**
+  - Replaced the fixed `temp_audio.wav` name with `tempfile.NamedTemporaryFile` to give each call a unique path.
+  - Wrapped the upload block in `try`/`finally` so the temp file is always deleted.
+
+  **Tests**
+  - Added a regression test that mocks the Azure upload to raise, then asserts no new `.wav` files remain in `DB_DATA_PATH`.
+
+  Fixes #1894.
+  </details>
 - **[#2301](https://github.com/microsoft/PyRIT/pull/2301)** — in review — implements the Bijection Attack (arXiv:2410.01294) as a new converter/attack module
