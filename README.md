@@ -22,6 +22,6 @@ I build complete, production-shaped systems end to end — backend APIs, databas
 ### 🌱 Open Source
 
 **[Microsoft PyRIT](https://github.com/microsoft/PyRIT)** (Python Risk Identification Tool for generative AI):
-- **[#1831](https://github.com/microsoft/PyRIT/pull/1831)** — merged — added the SALT-NLP Moral Integrity Corpus (MIC) dataset loader
+- **[#1831](https://github.com/microsoft/PyRIT/pull/1831)** - merged — added the SALT-NLP Moral Integrity Corpus (MIC) dataset loader
 - **[#1910](https://github.com/microsoft/PyRIT/pull/1910)** — merged — fixed a temp-file leak and race condition in `save_formatted_audio`
 - **[#2301](https://github.com/microsoft/PyRIT/pull/2301)** — in review — implements the Bijection Attack (arXiv:2410.01294) as a new converter/attack module
